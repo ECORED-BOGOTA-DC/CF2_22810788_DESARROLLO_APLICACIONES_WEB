@@ -5,11 +5,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Codificación web
 
 </template>
 
 <script>
+import Prism from 'prismjs'
+import 'prismjs/themes/prism.css'
 export default {
   name: 'Tema2',
   data: () => ({
@@ -19,6 +21,9 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+    window.Prism = window.Prism || {}
+    window.Prism.manual = true
+    Prism.highlightAll()
   },
   updated() {
     this.$aosRefresh()
