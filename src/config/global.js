@@ -148,32 +148,84 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Curso de Node.js',
+      referencia: 'Moisset, D. (s. f.). <i>Node.js Ya</i>. Tutoriales Ya.',
+      tipo: 'Tutoriales',
+      link: 'https://www.tutorialesprogramacionya.com/javascriptya/nodejsya/',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Backend</em>',
+      significado:
+        'desarrollo que se realiza del lado del servidor, aplicaciones que centralizan principalmente la lógica del negocio, las bases de datos y los recursos de un sistema para que sean consumidos por una aplicación tipo cliente, o un <i>frontend</i>.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Cliente',
+      significado:
+        'son aplicaciones que permiten consumir información de un servidor, toda aplicación de escritorio que tiene comunicación con un servidor es un cliente.',
+    },
+    {
+      termino: '<i>Framework</i>',
+      significado:
+        'librería o marco de trabajo que contiene clases, funciones, configuraciones, paquetes y componentes, que son comunes en el desarrollo de funcionalidades.',
+    },
+    {
+      termino: '<i>Frontend</i>',
+      significado:
+        'desarrollo que se realiza del lado del cliente, aplicaciones web, aplicaciones de escritorio, aplicaciones móviles; estas se despliegan en la máquina del usuario. Esta es la capa o el nivel con el que los usuarios interactúan.',
+    },
+    {
+      termino: 'JavaScript',
+      significado:
+        'lenguaje de programación tipo <i>scripting</i> que sirve para agregar funcionalidad a documentos web.',
+    },
+    {
+      termino: '<i>Localhost</i>',
+      significado:
+        'en el contexto de las redes de computadoras, <i>localhost</i> es una computadora que ejecuta un programa. La computadora que se tiene al frente funciona también como un servidor virtual. Este modo es comúnmente utilizado para realizar pruebas en el desarrollo web.',
+    },
+    {
+      termino: 'Socket',
+      significado:
+        'proceso asíncrono en el cual dos procesos pueden intercambiar información.',
+    },
+    {
+      termino: 'Servidor',
+      significado:
+        'son aplicaciones que permiten servir o disponer contenido para el consumo de otras aplicaciones.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Luna, F., Peña, C. y Iacono, M. (2018). <i>PROGRAMACIÓN WEB Full Stack 16-Webs dinámicas con AJAX y PHP: Desarrollo frontend y backend-Curso visual y práctico</i>. RedUsers.',
       link: '',
+    },
+    {
+      referencia:
+        'Navarrete, L. y Cárdenas, M. (2016). <i>Diseño y desarrollo de un CMS (Content Management System) para código abierto utilizando Node.JS y Mongo.DB como base de datos documental</i>. Universidad Politécnica Salesiana. ',
+      link: 'http://dspace.ups.edu.ec/handle/123456789/12424',
+    },
+    {
+      referencia:
+        'Paterna, R. (2015). <i>Desarrollo de una aplicación colaborativa síncrona-asíncrona con persistencia en un entorno web</i>. Universidad Politécnica de Madrid. ',
+      link: 'https://oa.upm.es/41062/',
+    },
+    {
+      referencia:
+        'Puciarelli, L. (2020). <i>Node JS-Vol. 1: Instalación-Arquitectura-node y npm (Vol. 1)</i>. RedUsers.',
+      link: '',
+    },
+    {
+      referencia:
+        'Puranik, D., Feiock, D. y Hill, J. (2013). <i>Real-time monitoring using AJAX and WebSockets</i>. IEEE.',
+      link: '',
+    },
+    {
+      referencia:
+        'Trejos, O. (2018). <i>WhatsApp como herramienta de apoyo al proceso de enseñanza y aprendizaje de la programación de computadores</i>. Educación y ciudad, (35), p. 149-158. ',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6702430',
     },
   ],
   creditos: [
@@ -181,14 +233,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -196,9 +249,26 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gustavo Adolfo Rodríguez Quinayas',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Leydy Jhuliana Jaramillo Mejía',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -206,13 +276,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yuly Rey',
           cargo: 'Diseñador web',
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollador fullstack',
           centro: 'Nombre centro de formación',
         },
         {
