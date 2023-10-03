@@ -10,7 +10,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4(data-aos="fade-down")
-          p.mb-0 La maquetación web es el proceso que consiste en tomar el prototipo gráfico, también denominado «layout»  (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial), y transformarlo en código html, css y js (estándares web), para que los navegadores puedan interpretarlo correctamente (Edición y maquetación de documentos web, 2012).
+          p.mb-0 La maquetación web es el proceso que consiste en tomar el prototipo gráfico, también denominado #[i «layout»] (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial), y transformarlo en código html, css y js (estándares web), para que los navegadores puedan interpretarlo correctamente (Edición y maquetación de documentos web, 2012).
     .row.mb-5(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -24,7 +24,7 @@
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width: 420px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 El uso de las hojas de estilo comprende aplicar cambios en las propiedades de los elementos html determinados en la maquetación o definición del diseño, esto es uno de los beneficios determinados por los frameworks CSS, que proporcionan una estructura html con la configuración predeterminada de los componentes. Es decir, que si se tiene un elemento tipo tarjeta, se usará, probablemente, el tag &lt;article&gt;	 o &lt;div&gt;	, y se le aplicarán los estilos necesarios, ya sea color, tipografía, tamaño de letra, títulos, párrafos, etc.
+        p.mb-0 El uso de las hojas de estilo comprende aplicar cambios en las propiedades de los elementos html determinados en la maquetación o definición del diseño, esto es uno de los beneficios determinados por los #[i frameworks] CSS, que proporcionan una estructura html con la configuración predeterminada de los componentes. Es decir, que si se tiene un elemento tipo tarjeta, se usará, probablemente, el tag &lt;article&gt;	 o &lt;div&gt;	, y se le aplicarán los estilos necesarios, ya sea color, tipografía, tamaño de letra, títulos, párrafos, etc.
     .row.mb-5(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c7
         .row.align-items-center
@@ -32,7 +32,7 @@
             figure
               img(src='@/assets/curso/tema2/img2.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 #[i Movie first design] vs. #[i Responsive web design]
+            h3.mb-0 #[i Movie first desing] vs. #[i Responsive web desing]
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -57,7 +57,7 @@
           .row.align-items-center
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               p #[b Bootstrap CSS]
-              p.mb-0 Es un conjunto de archivos y herramientas de CSS, de código abierto, utilizado específicamente para la maquetación y desarrollo web. Se puede organizar y dar forma a un sitio web dando uso a los estilos y las características determinadas en el mismo; estas librerías están determinadas por el código estructural en html, los estilos en CSS y código funcional en JavaScript. Algunos de los componentes desarrollados son: ventanas modales, menús, cuadros, botones, formularios, es decir, los elementos que necesitas para maquetar una página.
+              p.mb-0 Es un conjunto de archivos y herramientas de CSS, de código abierto, utilizado específicamente para la maquetación y desarrollo web. Se puede organizar y dar forma a un sitio web dando uso a los estilos y las características determinadas en el mismo; estas librerías están determinadas por el código estructural en HTML, los estilos en CSS y código funcional en JavaScript. Algunos de los componentes desarrollados son: ventanas modales, menús, cuadros, botones, formularios, es decir, los elementos que necesitas para maquetar una página.
             .col-lg-5(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img2.png', style="width: 460px" ,alt='').m-auto
@@ -87,7 +87,7 @@
             figure
               img(src='@/assets/curso/tema2/img2.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 Material Design
+            h3.mb-0 Material Desing
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -123,7 +123,7 @@
             p.mb-0 #[b Figura 4]. Diseño de componentes
           figure.mb-4
             img(src='@/assets/curso/tema2/img8.svg', style="width: 460px" ,alt='')
-          p El sistema de color de Material Design ayuda a aplicar color a las interfaces de usuario de una manera simplificada. En este sistema, el diseñador define un color como primario y otro como secundario, para representar el tema de su marca. Las variaciones de oscuras y claras para cada color se aplican a la interfaz de usuario de diferentes formas de manera preestablecida.
+          p El sistema de color de Material Desing ayuda a aplicar color a las interfaces de usuario de una manera simplificada. En este sistema, el diseñador define un color como primario y otro como secundario, para representar el tema de su marca. Las variaciones de oscuras y claras para cada color se aplican a la interfaz de usuario de diferentes formas de manera preestablecida.
           .titulo-sexto.color-primario.mb-4
             p.mb-0 #[b Figura 5]. Manejo de colores
           figure
@@ -132,7 +132,7 @@
         .col-12
           p En una aplicación web o móvil, una animación capta la atención de los usuarios, sin embargo, es deseable que estas animaciones no interrumpan la experiencia de usuario. De esta forma, es deseable que exista relación entre las animaciones y la propia esencia del sitio web o aplicación, por ejemplo, el efecto de presionar el botón, la experiencia real de desplazar un elemento.
           p.mb-0 Para Google, el movimiento enfatiza el papel del usuario como el actor principal de la interacción con la máquina y el que dirige los movimientos en dicha interacción. Las acciones del usuario tienen el poder de cambiar el diseño o disposición de los elementos. Es así que los elementos de la interfaz son presentados al usuario sin interferir con la experiencia de usuario, incluso cuando dichos elementos se transforman y reorganizan.
-    p.mb-5(data-aos="fade-right") En conclusión, Material Design es una propuesta de diseño novedosa y que se está incorporando en las nuevas versiones de Android. Los principios del Material Design van guiados a mejorar la experiencia de usuario teniendo en cuenta las últimas tecnologías. Tenga en cuenta:
+    p.mb-5(data-aos="fade-right") En conclusión, Material Desing es una propuesta de diseño novedosa y que se está incorporando en las nuevas versiones de Android. Los principios del Material Desing van guiados a mejorar la experiencia de usuario teniendo en cuenta las últimas tecnologías. Tenga en cuenta:
     figure.d-none.d-lg-block.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema2/img10.svg', style="width: 1060px" ,alt='').m-auto
     figure.d-block.d-lg-none.mb-5(data-aos="fade-left")
@@ -175,7 +175,7 @@
     #t_2_1
     .titulo-segundo.color-acento-botones
       h2 2.1. Creación proyecto Node.js
-    p.mb-5(data-aos="fade-right") Una de las primeras diferencias entre JavaScript y NodeJs es el concepto de Módulo, el cual contiene variables, funciones, objetos, que son exportados para ser usados en otras implementaciones.
+    p.mb-5(data-aos="fade-right") Una de las primeras diferencias entre JavaScript y Node.js es el concepto de Módulo, el cual contiene variables, funciones, objetos, que son exportados para ser usados en otras implementaciones.
     .row.bg-c10.mb-5(data-aos="fade-left")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
@@ -184,8 +184,8 @@
               figure
                 img(src='@/assets/curso/tema2/img12.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
-              p #[b.text-white De esta manera, lo anterior se puede retomar a partir de.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              p #[b.text-white De esta manera, lo anterior se puede retomar a partir de:]
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/uvy0tDSvV_w?si=0wr_WveORFd_SB1V" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     p.mb-5(data-aos="fade-right") Para entender esto un poco más, creemos el siguiente archivo.
@@ -198,7 +198,7 @@
             figure
               img(src='@/assets/curso/tema2/img4.png', style="width: 350px" ,alt='').m-auto
           .col-lg-6(data-aos="fade-left")
-            p.mb-0 A diferencia de los archivos js de JavaScript, en NodeJs no es requerido un documento HTML para ser ejecutado, sino, por el contrario, se usa el intérprete de NodeJs. En el archivo creado, se definirán algunas funciones básicas y constantes.
+            p.mb-0 A diferencia de los archivos js de JavaScript, en Node.js no es requerido un documento HTML para ser ejecutado, sino, por el contrario, se usa el intérprete de Node.js. En el archivo creado, se definirán algunas funciones básicas y constantes.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 7]. Definición de funciones y constantes en modulo Node.js
     .row.mb-5
@@ -247,7 +247,7 @@
                 |4  console.log('La resta de 4-1= ' + mat.restar(4,1))
                 |5  console.log('El valor de PI= ' + mat.PI)
           .col-lg-6(data-aos="fade-left")
-            p.mb-0 Para ejecutar el bloque de código de NodeJs, se requiere ingresar a la consola CMD y navegar hasta donde está almacenado el archivo fuente; posteriormente, con el prefijo node, buscar el archivo que se quiere implementar.
+            p.mb-0 Para ejecutar el bloque de código de Node.js, se requiere ingresar a la consola CMD y navegar hasta donde está almacenado el archivo fuente; posteriormente, con el prefijo node, buscar el archivo que se quiere implementar.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 10]. Ejecución de funcionalidad desde CMD
     .row.mb-5
@@ -291,7 +291,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3")(data-aos="fade-down")
       .row.justify-content-center(titulo="Paso 1")
         .col-lg-5.mb-4.mb-lg-0
-          p.mb-0 Crear espacio de trabajo. Cree una carpeta con el nombre webapp y, en su interior, defina una subcarpeta con el nombre static.
+          p.mb-0 Crear espacio de trabajo. Cree una carpeta con el nombre #[b #[i webapp]] y, en su interior, defina una subcarpeta con el nombre #[b #[i static]].
         .col-lg-5
           figure
             img(src='@/assets/curso/tema2/img8.png', style="width: 450px" ,alt='').m-auto
@@ -355,7 +355,7 @@
         .col-12
           .row
             .col-lg-4.mb-3.mb-lg-0
-              p Crear el archivo principal de NodeJs, para renderizar los archivos estáticos y definir el servidor web.
+              p Crear el archivo principal de Node.js, para renderizar los archivos estáticos y definir el servidor web.
               p Archivo principal de ejecución main.js
               figure
                 img(src='@/assets/curso/tema2/img10.png', style="width: 450px" ,alt='').m-auto
@@ -391,7 +391,22 @@
                   |26     }
                   |27   })
                   |28 })
-    p.mb-5(data-aos="fade-right") En el anterior ejemplo, se hizo uso de dos módulos del core de NodeJs, los cuales son ‘http’ y ‘fs’, permitiendo establecer un servidor web y manejar los archivos html estáticos.
+      .row.justify-content-center(titulo="Paso 5")
+        .col-lg-5.mb-4.mb-lg-0
+          p.mb-0 Desplegar el servidor.
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/tema2/img31.png', style="width: 450px" ,alt='').m-auto
+      .row.justify-content-center(titulo="Paso 6")
+        .col-lg-5.mb-4.mb-lg-0
+          p.mb-0 Validar si el servidor web está desplegando los archivos estáticos. Ingresando a 
+            | 
+            a(href="http://localhost:8888" target="_blank" type="application/pdf") #[u.txt-c2 http://localhost:8888]
+            |, debe renderizar el archivo index.html y permitir navegar a las dos páginas adicionales.
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/tema2/img32.png', style="width: 450px" ,alt='').m-auto
+    p.mb-5(data-aos="fade-right") En el anterior ejemplo, se hizo uso de dos módulos del core de Node.js, los cuales son ‘http’ y ‘fs’, permitiendo establecer un servidor web y manejar los archivos html estáticos.
     .row.bg-c10(data-aos="fade-left")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
@@ -400,8 +415,8 @@
               figure
                 img(src='@/assets/curso/tema2/img12.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
-              p #[b.text-white Para finalizar, se puede ampliar la información a partir de.]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              p #[b.text-white Para finalizar, se puede ampliar la información a partir de:]
+              a.boton.color-acento-botones.me-3(href="https://www.youtube.com/embed/DmF2bFRoS68?si=C-5-VE1NzFSUpmiv" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     Separador
@@ -424,7 +439,7 @@
     Separador
     #t_2_3
     .titulo-segundo.color-acento-botones
-      h2 2.3. Configuración de apache para aplicación cliente
+      h2 2.3. Configuración de Apache para aplicación cliente
     p.mb-5(data-aos="fade-right") Tenga en cuenta la siguiente información:
     .tarjeta.tarjeta--azul4.p-4.mb-5(data-aos="fade-right")
       SlyderA
@@ -482,12 +497,12 @@
                   img(src='@/assets/curso/tema2/img13.png', style="width: 480px" ,alt='').m-auto
             .row.justify-content-center
               .col-10
-                p #[b D.] Iniciar el wizard de instalación.
+                p #[b D.] Iniciar el #[i wizard] de instalación.
                 figure
                   img(src='@/assets/curso/tema2/img14.png', style="width: 450px" ,alt='').m-auto
             .row.justify-content-center
               .col-10
-                p #[b E.] Selección de componentes de software.
+                p #[b E.] Selección de componentes de #[i software].
                 figure
                   img(src='@/assets/curso/tema2/img15.png', style="width: 450px" ,alt='').m-auto
             .row.justify-content-center
@@ -502,7 +517,7 @@
                   img(src='@/assets/curso/tema2/img17.png', style="width: 450px" ,alt='').m-auto
             .row.justify-content-center
               .col-10
-                p #[b H.] Configurar el firewall.
+                p #[b H.] Configurar el #[i firewall].
                 figure
                   img(src='@/assets/curso/tema2/img18.png', style="width: 450px" ,alt='').m-auto
             .row.justify-content-center
@@ -563,7 +578,7 @@
             img(src='@/assets/curso/tema2/img22.svg', style="width: 1100px" ,alt='').m-auto
       .row.justify-content-center(titulo="Comunicación asíncrona PUSH")
         .col-lg-10
-          p consiste en que el cliente envía una petición al servidor http, el cual genera una respuesta que nunca termina, es decir, crea una conexión que no termina y queda abierta, de esta manera, permite enviar submensajes de actualización hacia el cliente. Mientras la conexión está abierta, el servidor se encarga de enviar mensajes de PING para evitar que el cliente realice un cierre de la conexión por timeout. Los sockets son un ejemplo de este tipo de conexiones.
+          p Consiste en que el cliente envía una petición al servidor http, el cual genera una respuesta que nunca termina, es decir, crea una conexión que no termina y queda abierta, de esta manera, permite enviar submensajes de actualización hacia el cliente. Mientras la conexión está abierta, el servidor se encarga de enviar mensajes de PING para evitar que el cliente realice un cierre de la conexión por timeout. Los sockets son un ejemplo de este tipo de conexiones.
           figure
             img(src='@/assets/curso/tema2/img23.svg', style="width: 1100px" ,alt='').m-auto
     p.ms-2.mb-5(data-aos="fade-right") #[b Nota]. Tomado de: 
@@ -574,9 +589,9 @@
     #t_2_5
     .titulo-segundo.color-acento-botones
       h2 2.5 Codificación de servidor socket con Node.js
-    p.mb-5(data-aos="fade-right") Para la creación de un servidor socket, será necesario que cree un nuevo espacio de trabajo denominado websocketapp en la raíz de su workstation.
+    p.mb-5(data-aos="fade-right") Para la creación de un servidor socket, será necesario que cree un nuevo espacio de trabajo denominado #[i websocketapp] en la raíz de su #[i workstation].
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
-      p.mb-0 #[b Figura 14]. Creación de espacio de proyecto websocket
+      p.mb-0 #[b Figura 14]. Creación de espacio de proyecto #[i websocket]
     .row.mb-5
       .col-12.bg-c3.p-4
         .row.justify-content-center.align-items-center
@@ -618,7 +633,7 @@
                 |14   console.log('Socket.IO server running at http://localhost:${port}/');
                 |15 });
           .col-12(data-aos="fade-left")
-            p.mb-0 Como se puede observar en la anterior imagen, en la línea 7, se hace uso del objeto io, el cual pertenece al módulo de socket.io, y permite establecer el servidor socket; en la línea 8, establece la conexión de este; y en la línea 9, emite el evento para que los suscritos al socket lo puedan recibir.
+            p.mb-0 Como se puede observar en la anterior imagen, en la línea 7, se hace uso del objeto #[i io], el cual pertenece al módulo de #[i socket.io], y permite establecer el servidor socket; en la línea 8, establece la conexión de este; y en la línea 9, emite el evento para que los suscritos al socket lo puedan recibir.
     Separador
     #t_2_6
     .titulo-segundo.color-acento-botones
@@ -716,9 +731,9 @@
                   | });
           .row.mb-5(data-aos="fade-right")
             .col-auto.ms-2.px-3.py-2.bg-c5
-              p.mb-0 Este archivo debe estar ubicado en la raíz del proyecto.
+              p.mb-0 Añada los siguientes archivos en la raíz del proyecto.
           p.mb-4(data-aos="fade-right") App.js:
-          .row.mb-5
+          .row.mb-4
             .col-auto(data-aos="fade-down")
               pre
                 code.language-javascript
@@ -792,7 +807,10 @@
           .col-12(data-aos="fade-left")
             figure.mb-4
               img(src='@/assets/curso/tema2/img30.png', style="width: 750px" ,alt='').m-auto
-            p.mb-0 En la raíz del servidor http://localhost:3000, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del backend. Como se observa en el pantallazo, cada vez que se dé en el botón Send, se enviará un request al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido html.
+            p.mb-0 En la raíz del servidor 
+              | 
+              a(href="http://localhost:3000" target="_blank" type="application/pdf") #[u.txt-c2 http://localhost:3000]
+              |, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del #[i backend]. Como se observa en el pantallazo, cada vez que se dé en el botón #[i Send], se enviará un #[i request] al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido html.
 
 </template>
 

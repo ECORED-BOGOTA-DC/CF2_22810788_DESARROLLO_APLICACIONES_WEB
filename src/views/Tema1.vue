@@ -132,7 +132,7 @@
     Separador
     #t_1_1
     .titulo-segundo.color-acento-botones
-      h2 1.1 Requerimientos hardware y software de IDE
+      h2 1.1 Requerimientos #[i hardware] y #[i software] de IDE
     .row.align-items-center.mb-5(data-aos="fade-down")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -180,8 +180,8 @@
       .tarjeta.color-acento-botones.p-4(titulo="Visual Studio Code")
         .row
           .col-12.p-4
-            p Es una herramienta de Microsoft, una aplicación de código abierto que permite desarrollar aplicaciones en NodeJs, con las funcionalidades de edición, depuración y compilación de código, es un software ligero, pero muy potente. 
-            p Viene de forma predeterminada con soporte a JavaScript y con plugins para dar soporte a NodeJs; otra característica es que es multiplataforma, dado que existe su versión para Windows, Mac y Linux.
+            p Es una herramienta de Microsoft, una aplicación de código abierto que permite desarrollar aplicaciones en Node.js, con las funcionalidades de edición, depuración y compilación de código, es un software ligero, pero muy potente. 
+            p Viene de forma predeterminada con soporte a JavaScript y con plugins para dar soporte a Node.js; otra característica es que es multiplataforma, dado que existe su versión para Windows, Mac y Linux.
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Interfaz Visual Studio Code
               .indicador--click(v-if="mostrarIndicador")
@@ -189,14 +189,14 @@
         .row
           .col-12.p-4
             p Es otro popular editor usado para el desarrollo en diferentes plataformas y lenguajes, es desarrollado por JetBrains con el apoyo de Java y Kotlin. Permite aplicaciones desarrolladas en Java, JavaScript, HTML, CSS, Node.Js, Angular.js, React, entre otros. Es una de las mejores herramientas, teniendo en cuenta los múltiples complementos para realizar conexiones, como base de datos, contenedores Docker, entre otros. 
-            p Esta plataforma tiene dos versiones, una community, que es gratuita, y la que es licenciada, para la cual se puede crear una cuenta estudiantil por un año; también cuenta con licencias individuales o empresariales.
+            p Esta plataforma tiene dos versiones, una #[i community], que es gratuita, y la que es licenciada, para la cual se puede crear una cuenta estudiantil por un año; también cuenta con licencias individuales o empresariales.
             a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
               span Interfaz Intellij IDEA
               .indicador--click(v-if="mostrarIndicador")
       .tarjeta.color-acento-botones.p-4(titulo="Eclipse")
         .row
           .col-12.p-4
-            p Es un IDE basado en la nube, se considera uno de los mejores editores para desarrollar aplicaciones en NodeJs. Permite establecer un espacio de trabajo para que los desarrolladores puedan trabajar de manera simultánea, de una forma organizada y eficiente; es un proyecto de código abierto, que incluye un servidor tipo de API RestFul, entre otros elementos.
+            p Es un IDE basado en la nube, se considera uno de los mejores editores para desarrollar aplicaciones en Node.js. Permite establecer un espacio de trabajo para que los desarrolladores puedan trabajar de manera simultánea, de una forma organizada y eficiente; es un proyecto de código abierto, que incluye un servidor tipo de API RestFul, entre otros elementos.
             a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
               span Interfaz Eclipse
               .indicador--click(v-if="mostrarIndicador")
@@ -259,7 +259,7 @@
     #t_1_2
     .titulo-segundo.color-acento-botones
       h2 1.2 Configuración e instalación de entorno Node.js
-    p.mb-5(data-aos="fade-right") En este punto, se va a recordar el paso a paso para instalar NodeJs. Si ya se realizó previamente, solo valide qué versión tiene en la actualidad; para ello, observe:
+    p.mb-5(data-aos="fade-right") En este punto, se va a recordar el paso a paso para instalar Node.js. Si ya se realizó previamente, solo valide qué versión tiene en la actualidad; para ello, observe:
     .tarjeta.tarjeta--azul.p-4.p-lg-5(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
@@ -306,16 +306,6 @@
                 p.mb-0.text-white #[b Ubicación de la instalación]
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            p #[b Configuración avanzada]
-            p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso que no requiera hacer ajustes, se instalará la configuración por defecto.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema1/img13.png', style="width: 580px" ,alt='')
-            .row.mx-0
-              .col-auto.bg-c6.px-3.py-2
-                p.mb-0.text-white #[b Configuración avanzada]
-        .row.justify-content-center.align-items-center
-          .col-lg-5.mb-4.mb-lg-0
             p #[b Módulos nativos]
             p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso de que no requiera hacer ajustes, se instalará la configuración por defecto.
           .col-lg-5
@@ -326,6 +316,16 @@
                 p.mb-0.text-white #[b Módulos nativos]
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
+            p #[b Configuración avanzada]
+            p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso que no requiera hacer ajustes, se instalará la configuración por defecto.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img13.png', style="width: 580px" ,alt='')
+            .row.mx-0
+              .col-auto.bg-c6.px-3.py-2
+                p.mb-0.text-white #[b Configuración avanzada]
+        .row.justify-content-center.align-items-center
+          .col-lg-5.mb-4.mb-lg-0
             p #[b Ejecución de la instalación]
             p.mb-0 Posteriormente a todas las configuraciones de instalación, se procederá a confirmar el proceso de instalación.
           .col-lg-5
@@ -334,6 +334,26 @@
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Ejecución de la instalación]
+        .row.justify-content-center.align-items-center
+          .col-lg-5.mb-4.mb-lg-0
+            p #[b Proceso de instalación]
+            p.mb-0 Mientras el paquete de Node.js se está instalando, aparecerá una pantalla de progreso que indicará el estado de la instalación.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img22.png', style="width: 580px" ,alt='')
+            .row.mx-0
+              .col-auto.bg-c6.px-3.py-2
+                p.mb-0.text-white #[b Proceso de instalación]
+        .row.justify-content-center.align-items-center
+          .col-lg-5.mb-4.mb-lg-0
+            p #[b Finalización]
+            p.mb-0 Cuando se finalice el proceso de instalación, aparecerá una ventana de confirmación, que indica que la instalación fue completada satisfactoriamente.
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img23.png', style="width: 580px" ,alt='')
+            .row.mx-0
+              .col-auto.bg-c6.px-3.py-2
+                p.mb-0.text-white #[b Finalización]
     Separador
     #t_1_3
     .titulo-segundo.color-acento-botones
