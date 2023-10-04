@@ -810,7 +810,7 @@
             p.mb-0 En la raíz del servidor 
               | 
               a(href="http://localhost:3000" target="_blank" type="application/pdf") #[u.txt-c2 http://localhost:3000]
-              |, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del #[i backend]. Como se observa en el pantallazo, cada vez que se dé en el botón #[i Send], se enviará un #[i request] al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido html.
+              |, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del #[i back-end]. Como se observa en el pantallazo, cada vez que se dé en el botón #[i Send], se enviará un #[i request] al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido html.
 
 </template>
 

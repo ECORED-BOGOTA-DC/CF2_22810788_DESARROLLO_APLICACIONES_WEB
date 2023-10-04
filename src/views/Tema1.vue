@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Preparación del entorno
-    p(data-aos="fade-right") Node.js llegó para quedarse y, como lo expresan los desarrolladores del #[b #[i frontend]], es un beneficio para todos aquellos que trabajan con JavaScript, ya que, para codificar en el #[b #[i backend]], entre otros, no será necesario aprender otro lenguaje. En este momento, es posible crear aplicaciones bidireccionales, en las que tanto el cliente como el servidor pueden comunicarse a fondo en tiempo real e intercambiar datos, de hecho, #[b #[i Node.js]] ha promovido y revolucionado los desarrollos implementando funcionalidades en tiempo real con #[b #[i WebSockets]]. 
+    p(data-aos="fade-right") Node.js llegó para quedarse y, como lo expresan los desarrolladores del #[b #[i front-end]], es un beneficio para todos aquellos que trabajan con JavaScript, ya que, para codificar en el #[b #[i back-end]], entre otros, no será necesario aprender otro lenguaje. En este momento, es posible crear aplicaciones bidireccionales, en las que tanto el cliente como el servidor pueden comunicarse a fondo en tiempo real e intercambiar datos, de hecho, #[b #[i Node.js]] ha promovido y revolucionado los desarrollos implementando funcionalidades en tiempo real con #[b #[i WebSockets]]. 
     p.mb-5(data-aos="fade-right") Esta tecnología es empleada por muchas compañías, entre las cuales se pueden encontrar:
     .row.justify-content-center(data-aos="fade-down")
       .col-10.col-md-5.col-xl.bg-c2.m-2
