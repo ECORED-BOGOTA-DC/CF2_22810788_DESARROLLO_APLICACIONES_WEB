@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 2
       h1 Codificación web
-    p.mb-5(data-aos="fade-right") El proceso de maquetación web es la transformación del diseño o prototipo a un producto web en un conjunto de archivos (html, css, js), de manera que serán desplegados (renderizados) por un navegador.
+    p.mb-5(data-aos="fade-right") El proceso de maquetación web es la transformación del diseño o prototipo a un producto web en un conjunto de archivos (HTML, CSS, JS), de manera que serán desplegados (renderizados) por un navegador.
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4(data-aos="fade-down")
-          p.mb-0 La maquetación web es el proceso que consiste en tomar el prototipo gráfico, también denominado #[i «layout»] (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial), y transformarlo en código html, css y js (estándares web), para que los navegadores puedan interpretarlo correctamente (Edición y maquetación de documentos web, 2012).
+          p.mb-0 La maquetación web es el proceso que consiste en tomar el prototipo gráfico, también denominado #[i «layout»] (con los requisitos estructurales y estéticos definidos y aprobados en un análisis inicial), y transformarlo en código HTML, CSS y JS (estándares web), para que los navegadores puedan interpretarlo correctamente (Edición y maquetación de documentos web, 2012).
     .row.mb-5(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
@@ -24,7 +24,7 @@
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width: 420px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 El uso de las hojas de estilo comprende aplicar cambios en las propiedades de los elementos html determinados en la maquetación o definición del diseño, esto es uno de los beneficios determinados por los #[i frameworks] CSS, que proporcionan una estructura html con la configuración predeterminada de los componentes. Es decir, que si se tiene un elemento tipo tarjeta, se usará, probablemente, el tag &lt;article&gt;	 o &lt;div&gt;	, y se le aplicarán los estilos necesarios, ya sea color, tipografía, tamaño de letra, títulos, párrafos, etc.
+        p.mb-0 El uso de las hojas de estilo comprende aplicar cambios en las propiedades de los elementos HTML determinados en la maquetación o definición del diseño, esto es uno de los beneficios determinados por los #[i frameworks] CSS, que proporcionan una estructura HTML con la configuración predeterminada de los componentes. Es decir, que si se tiene un elemento tipo tarjeta, se usará, probablemente, el tag &lt;article&gt;	 o &lt;div&gt;	, y se le aplicarán los estilos necesarios, ya sea color, tipografía, tamaño de letra, títulos, párrafos, etc.
     .row.mb-5(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c7
         .row.align-items-center
@@ -50,7 +50,7 @@
             .col-lg-8
               .cajon.color-secundario.p-4(data-aos="fade-left")
                 p.mb-0 #[b #[i Mobile first]], «los móviles primero», consiste en realizar la maquetación teniendo en cuenta los dispositivos móviles, proporcionando la relación de pantalla de los móviles, las tablets y las pantallas de ordenador. Estos diseños están pensados para ser escalados de acuerdo con la dimensión de la pantalla en la que son renderizados, es decir, permitiendo cambiar el tamaño y estructura de un tipo a otro.
-    p.mb-5 Algunos de los frameworks CSS son:
+    p.mb-5 Algunos de los #[i frameworks] CSS son:
     .row.bg-c9.mb-5
       .col-12
         .p-5
@@ -257,7 +257,7 @@
             figure
               img(src='@/assets/curso/tema2/img6.png', style="width: 450px" ,alt='').m-auto
           .col-lg-6(data-aos="fade-left")
-            p Cabe resaltar que, en la actualidad, hay muchos frameworks, con componentes y módulos con funcionalidades genéricas desarrolladas previamente por empresas u otros desarrolladores, lo cual busca optimizar y agilizar el desarrollo de aplicaciones. 
+            p Cabe resaltar que, en la actualidad, hay muchos #[i frameworks], con componentes y módulos con funcionalidades genéricas desarrolladas previamente por empresas u otros desarrolladores, lo cual busca optimizar y agilizar el desarrollo de aplicaciones. 
             p.mb-0 También se pueden consumir módulos definidos en el core de Node.js; entre estos módulos, se pueden destacar los siguientes: os, http, fs, net, url, path, dns, process, entre otros más.
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-down")
       p.mb-0 #[b Figura 11]. Consumo de componente del core
@@ -303,7 +303,7 @@
             img(src='@/assets/curso/tema2/img9.png', style="width: 450px" ,alt='').m-auto
       .row.justify-content-center(titulo="Paso 3")
         .col-12
-          p Transcriba el contenido estático de cada archivo html.
+          p Transcriba el contenido estático de cada archivo HTML.
           .row
             .col-lg-4.mb-3.mb-lg-0
               p Página estática index.html.
@@ -406,7 +406,7 @@
         .col-lg-5
           figure
             img(src='@/assets/curso/tema2/img32.png', style="width: 450px" ,alt='').m-auto
-    p.mb-5(data-aos="fade-right") En el anterior ejemplo, se hizo uso de dos módulos del core de Node.js, los cuales son ‘http’ y ‘fs’, permitiendo establecer un servidor web y manejar los archivos html estáticos.
+    p.mb-5(data-aos="fade-right") En el anterior ejemplo, se hizo uso de dos módulos del core de Node.js, los cuales son ‘http’ y ‘fs’, permitiendo establecer un servidor web y manejar los archivos HTML estáticos.
     .row.bg-c10(data-aos="fade-left")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
@@ -423,7 +423,7 @@
     #t_2_2
     .titulo-segundo.color-acento-botones
       h2 2.2. Creación e instalación de servidor Express sobre Node.js
-    p.mb-5(data-aos="fade-right") Con Node.js, es posible desarrollar un sitio web completo para renderizar páginas web estáticas o dinámicas, aunque la comunidad ha desarrollado un framework denominado Express, el cual facilita y ordena el desarrollo de sitios web.
+    p.mb-5(data-aos="fade-right") Con Node.js, es posible desarrollar un sitio web completo para renderizar páginas web estáticas o dinámicas, aunque la comunidad ha desarrollado un #[i framework] denominado Express, el cual facilita y ordena el desarrollo de sitios web.
     .row.bg-c10(data-aos="fade-left")
       .col-12
         .px-5.pt-5.pb-5.pb-lg-0
@@ -643,8 +643,8 @@
         figure
           img(src='@/assets/curso/tema2/img24.svg', style="width: 80px" ,alt='').m-auto
       .col
-        p Es requerido que, para hacer una conexión a un servidor socket, se cree un cliente socket; se requiere que esta implementación se desarrolle del lado del cliente, es decir, será necesario desarrollar una página html y, por medio de esta estructura, hacer uso de las facultades de JavaScript del lado del cliente.
-        p.mb-0 Para ello, será necesario crear un archivo estático en la raíz del proyecto, con el contenido html, y transcribir el siguiente código fuente.
+        p Es requerido que, para hacer una conexión a un servidor socket, se cree un cliente socket; se requiere que esta implementación se desarrolle del lado del cliente, es decir, será necesario desarrollar una página HTML y, por medio de esta estructura, hacer uso de las facultades de JavaScript del lado del cliente.
+        p.mb-0 Para ello, será necesario crear un archivo estático en la raíz del proyecto, con el contenido HTML, y transcribir el siguiente código fuente.
     .row.bg-c11
       .col-12
         .px-5
@@ -810,7 +810,7 @@
             p.mb-0 En la raíz del servidor 
               | 
               a(href="http://localhost:3000" target="_blank" type="application/pdf") #[u.txt-c2 http://localhost:3000]
-              |, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del #[i back-end]. Como se observa en el pantallazo, cada vez que se dé en el botón #[i Send], se enviará un #[i request] al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido html.
+              |, se renderiza la plantilla estática, e internamente se conectará con el servidor socket del #[i back-end]. Como se observa en el pantallazo, cada vez que se dé en el botón #[i Send], se enviará un #[i request] al servidor con la data del mensaje; esta data será devuelta a los clientes que estén suscritos, es decir, al mismo cliente, y posteriormente, renderiza el mensaje en el contenido HTML.
 
 </template>
 

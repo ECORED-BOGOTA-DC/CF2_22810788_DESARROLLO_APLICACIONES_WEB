@@ -18,7 +18,7 @@
               p.mb-0 En el desarrollo de este componente formativo se hace necesario hacer un recorrido por algunos elementos a tener en cuenta, para ello se debe observar.
           figure(data-aos="fade-left")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/SebOccXJZms?si=n5Zrel5ouj_fZmdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 

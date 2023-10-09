@@ -171,7 +171,7 @@
             p.mb-0 Los IDE (Entornos de desarrollo integrado, en español), o editores de texto, son aplicativos que permiten crear otros aplicativos, sus interfaces son relativamente similares unas a las otras, ya que presentan un panel izquierdo donde se puede visualizar el namespace o el folder del proyecto; en la parte central, el editor de código; y a la parte derecha, por lo general, un panel de extensiones o utilidades adicionales, entre otros.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Una de las principales diferencias entre un IDE y un editor de texto es que el primero, por lo general, contiene más ayudas, plugins y componentes que apoyan el proceso de desarrollo, aunque también y más importante, es que, por lo general, contiene un compilador, lo que permite que el código fuente sea chequeado antes de ser empaquetado y desplegado, esto los hace herramientas complejas y pesadas, tanto para descarga como en consumo de recursos, por ejemplo .Net framework y Windows Forms; para poder crear una aplicación en estas tecnologías, será necesario utilizar Visual Studio, que es el IDE de Microsoft para crear aplicaciones para Windows. Por otro lado, los editores son, por decirlo de una manera, una parte de un IDE, donde se pueden codificar aplicaciones, y el proceso de compilación se realiza o delega a otro componente externo. Una particularidad de este tipo de herramientas es que son muy livianas y consumen menos recursos.
+        p Una de las principales diferencias entre un IDE y un editor de texto es que el primero, por lo general, contiene más ayudas, plugins y componentes que apoyan el proceso de desarrollo, aunque también y más importante, es que, por lo general, contiene un compilador, lo que permite que el código fuente sea chequeado antes de ser empaquetado y desplegado, esto los hace herramientas complejas y pesadas, tanto para descarga como en consumo de recursos, por ejemplo .Net #[i framework] y Windows Forms; para poder crear una aplicación en estas tecnologías, será necesario utilizar Visual Studio, que es el IDE de Microsoft para crear aplicaciones para Windows. Por otro lado, los editores son, por decirlo de una manera, una parte de un IDE, donde se pueden codificar aplicaciones, y el proceso de compilación se realiza o delega a otro componente externo. Una particularidad de este tipo de herramientas es que son muy livianas y consumen menos recursos.
         p.mb-0 Algunas recomendaciones para usar son las siguientes:
       .col-lg-4(data-aos="fade-left")
         figure
@@ -180,7 +180,7 @@
       .tarjeta.color-acento-botones.p-4(titulo="Visual Studio Code")
         .row
           .col-12.p-4
-            p Es una herramienta de Microsoft, una aplicación de código abierto que permite desarrollar aplicaciones en Node.js, con las funcionalidades de edición, depuración y compilación de código, es un software ligero, pero muy potente. 
+            p Es una herramienta de Microsoft, una aplicación de código abierto que permite desarrollar aplicaciones en Node.js, con las funcionalidades de edición, depuración y compilación de código, es un #[i software] ligero, pero muy potente. 
             p Viene de forma predeterminada con soporte a JavaScript y con plugins para dar soporte a Node.js; otra característica es que es multiplataforma, dado que existe su versión para Windows, Mac y Linux.
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Interfaz Visual Studio Code

@@ -234,7 +234,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -256,19 +256,30 @@ export default {
         },
         {
           nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseño instruccional',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor pedagógico',
+          cargo: 'Responsable equipo de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Corrector de estilo',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesoría pedagógico',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -324,7 +335,8 @@ export default {
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación en plataforma LMS',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
