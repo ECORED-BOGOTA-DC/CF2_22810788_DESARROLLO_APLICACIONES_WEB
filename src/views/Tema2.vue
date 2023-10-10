@@ -433,7 +433,7 @@
                 img(src='@/assets/curso/tema2/img12.svg', style="width: 350px" ,alt='').m-auto
             .col-auto.col-lg-5
               p #[b.text-white De esta manera tenga en cuenta el siguiente paso a paso descrito en el anexo_ Creación e instalación de servidor Express sobre Node.js]
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank" type="application/pdf")
                 span Ver enlace
                 i.fas.fa-link
     Separador
