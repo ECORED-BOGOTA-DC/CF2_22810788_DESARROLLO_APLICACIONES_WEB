@@ -32,7 +32,7 @@
             figure
               img(src='@/assets/curso/tema2/img2.svg', style="width: 5px" ,alt='').m-auto
           .col
-            h3.mb-0 #[i Movie first desing] vs. #[i Responsive web desing]
+            h3.mb-0 #[i Movie first design] vs. #[i Responsive web design]
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-md-auto.mb-4.mb-md-0
         figure

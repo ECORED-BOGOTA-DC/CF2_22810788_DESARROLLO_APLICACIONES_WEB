@@ -138,7 +138,7 @@
         figure
           img(src='@/assets/curso/tema1/img11.svg', style="width: 60px" ,alt='').m-auto
       .col
-        p.mb-0 Para instalar Node.js, no se tendrán requerimientos muy complejos; el primero y más importante es conceptual, y es tener un conocimiento previo del lenguaje de programación #[b #[i JavaScript]]; por otro lado, en segundo lugar, es muy importante tener conocimientos en POO (Programación orientada a objetos).
+        p.mb-0 Para instalar Node.js, no se tendrán requerimientos muy complejos; el primero y más importante es conceptual, y es tener un conocimiento previo del lenguaje de programación #[b JavaScript]; por otro lado, en segundo lugar, es muy importante tener conocimientos en POO (Programación orientada a objetos).
     .row.mb-5(data-aos="fade-down")
       .col-auto.px-3.py-2.bg-c4
         .row.align-items-center
