@@ -306,16 +306,6 @@
                 p.mb-0.text-white #[b Ubicación de la instalación]
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            p #[b Módulos nativos]
-            p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso de que no requiera hacer ajustes, se instalará la configuración por defecto.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema1/img14.png', style="width: 580px" ,alt='')
-            .row.mx-0
-              .col-auto.bg-c6.px-3.py-2
-                p.mb-0.text-white #[b Módulos nativos]
-        .row.justify-content-center.align-items-center
-          .col-lg-5.mb-4.mb-lg-0
             p #[b Configuración avanzada]
             p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso que no requiera hacer ajustes, se instalará la configuración por defecto.
           .col-lg-5
@@ -324,6 +314,13 @@
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Configuración avanzada]
+        .row.justify-content-center.align-items-center
+          .col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img14.png', style="width: 580px" ,alt='')
+            .row.mx-0
+              .col-auto.bg-c6.px-3.py-2
+                p.mb-0.text-white #[b Módulos nativos]
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
             p #[b Ejecución de la instalación]

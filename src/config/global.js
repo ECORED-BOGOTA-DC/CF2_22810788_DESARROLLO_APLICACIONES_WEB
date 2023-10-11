@@ -132,7 +132,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/22810788_CF02_DU.zip',
       },
       {
         icono: 'fas fa-download',
