@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Preparación del entorno
-    p(data-aos="fade-right") Node.js llegó para quedarse y, como lo expresan los desarrolladores del #[b #[i front-end]], es un beneficio para todos aquellos que trabajan con JavaScript, ya que, para codificar en el #[b #[i back-end]], entre otros, no será necesario aprender otro lenguaje. En este momento, es posible crear aplicaciones bidireccionales, en las que tanto el cliente como el servidor pueden comunicarse a fondo en tiempo real e intercambiar datos, de hecho, #[b #[i Node.js]] ha promovido y revolucionado los desarrollos implementando funcionalidades en tiempo real con #[b #[i WebSockets]]. 
+    p(data-aos="fade-right") Node.js llegó para quedarse y, como lo expresan los desarrolladores del #[b #[i frontend]], es un beneficio para todos aquellos que trabajan con JavaScript, ya que, para codificar en el #[b #[i backend]], entre otros, no será necesario aprender otro lenguaje. En este momento, es posible crear aplicaciones bidireccionales, en las que tanto el cliente como el servidor pueden comunicarse a fondo en tiempo real e intercambiar datos, de hecho, #[b #[i Node.js]] ha promovido y revolucionado los desarrollos implementando funcionalidades en tiempo real con #[b #[i WebSockets]]. 
     p.mb-5(data-aos="fade-right") Esta tecnología es empleada por muchas compañías, entre las cuales se pueden encontrar:
     .row.justify-content-center(data-aos="fade-down")
       .col-10.col-md-5.col-xl.bg-c2.m-2
@@ -89,7 +89,7 @@
       .col-12.bg-c3
         .p-4
           figure
-            img(src='@/assets/curso/tema1/img1.png', style="width: 660px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img1.png', style="width: 660px" ,alt='Imagen que muestra la arquitectura Node.js, la cual se representa así: Incoming Requests - Event Queue - Event Loop - Worker Thread pool.').m-auto
     p.mb-5(data-aos="fade-right") Node.js tiene una forma particular de funcionar, explicada en la siguiente manera:
     SlyderF.mb-5(columnas="col-md-6 col-xl-4")(data-aos="fade-left")
       .tarjeta.color-acento-contenido.p-4
@@ -168,10 +168,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los IDE (Entornos de desarrollo integrado, en español), o editores de texto, son aplicativos que permiten crear otros aplicativos, sus interfaces son relativamente similares unas a las otras, ya que presentan un panel izquierdo donde se puede visualizar el namespace o el folder del proyecto; en la parte central, el editor de código; y a la parte derecha, por lo general, un panel de extensiones o utilidades adicionales, entre otros.
+            p.mb-0 Los IDE (Entornos de desarrollo integrado, en español), o editores de texto, son aplicativos que permiten crear otros aplicativos, sus interfaces son relativamente similares unas a las otras, ya que presentan un panel izquierdo donde se puede visualizar el #[i namespace] o el folder del proyecto; en la parte central, el editor de código; y a la parte derecha, por lo general, un panel de extensiones o utilidades adicionales, entre otros.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Una de las principales diferencias entre un IDE y un editor de texto es que el primero, por lo general, contiene más ayudas, plugins y componentes que apoyan el proceso de desarrollo, aunque también y más importante, es que, por lo general, contiene un compilador, lo que permite que el código fuente sea chequeado antes de ser empaquetado y desplegado, esto los hace herramientas complejas y pesadas, tanto para descarga como en consumo de recursos, por ejemplo .Net #[i framework] y Windows Forms; para poder crear una aplicación en estas tecnologías, será necesario utilizar Visual Studio, que es el IDE de Microsoft para crear aplicaciones para Windows. Por otro lado, los editores son, por decirlo de una manera, una parte de un IDE, donde se pueden codificar aplicaciones, y el proceso de compilación se realiza o delega a otro componente externo. Una particularidad de este tipo de herramientas es que son muy livianas y consumen menos recursos.
+        p Una de las principales diferencias entre un IDE y un editor de texto es que el primero, por lo general, contiene más ayudas, #[i plugins] y componentes que apoyan el proceso de desarrollo, aunque también y más importante, es que, por lo general, contiene un compilador, lo que permite que el código fuente sea chequeado antes de ser empaquetado y desplegado, esto los hace herramientas complejas y pesadas, tanto para descarga como en consumo de recursos, por ejemplo .Net #[i framework] y Windows Forms; para poder crear una aplicación en estas tecnologías, será necesario utilizar Visual Studio, que es el IDE de Microsoft para crear aplicaciones para Windows. Por otro lado, los editores son, por decirlo de una manera, una parte de un IDE, donde se pueden codificar aplicaciones, y el proceso de compilación se realiza o delega a otro componente externo. Una particularidad de este tipo de herramientas es que son muy livianas y consumen menos recursos.
         p.mb-0 Algunas recomendaciones para usar son las siguientes:
       .col-lg-4(data-aos="fade-left")
         figure
@@ -181,7 +181,7 @@
         .row
           .col-12.p-4
             p Es una herramienta de Microsoft, una aplicación de código abierto que permite desarrollar aplicaciones en Node.js, con las funcionalidades de edición, depuración y compilación de código, es un #[i software] ligero, pero muy potente. 
-            p Viene de forma predeterminada con soporte a JavaScript y con plugins para dar soporte a Node.js; otra característica es que es multiplataforma, dado que existe su versión para Windows, Mac y Linux.
+            p Viene de forma predeterminada con soporte a JavaScript y con #[i plugins] para dar soporte a Node.js; otra característica es que es multiplataforma, dado que existe su versión para Windows, Mac y Linux.
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Interfaz Visual Studio Code
               .indicador--click(v-if="mostrarIndicador")
@@ -221,7 +221,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Interfaz Visual Studio Code]
           figure
-            img(src='@/assets/curso/tema1/img4.png', style="width: 620px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img4.png', style="width: 620px" ,alt='Imagen de la interfaz de Visual Studio Code.').m-auto
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
         .col-12
@@ -229,7 +229,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Interfaz Intellij IDEA]
           figure
-            img(src='@/assets/curso/tema1/img5.png', style="width: 700px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img5.png', style="width: 700px" ,alt='Imagen de la interfaz de Intellij IDEA.').m-auto
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
         .col-12
@@ -237,7 +237,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Interfaz Eclipse]
           figure
-            img(src='@/assets/curso/tema1/img6.png', style="width: 800px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img6.png', style="width: 800px" ,alt='Imagen de la interfaz de  Eclipse.').m-auto
     ModalA(:abrir-modal.sync="modal4")
       .row.align-items-center
         .col-12
@@ -245,7 +245,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Interfaz Sublime Text]
           figure
-            img(src='@/assets/curso/tema1/img7.png', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img7.png', style="width: 850px" ,alt='Imagen de la interfaz de Sublime Text.').m-auto
     ModalA(:abrir-modal.sync="modal5")
       .row.align-items-center
         .col-12
@@ -253,7 +253,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Interfaz Atom]
           figure
-            img(src='@/assets/curso/tema1/img8.png', style="width: 740px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img8.png', style="width: 740px" ,alt='Imagen de la interfaz de Atom.').m-auto
     p.mb-0(data-aos="fade-right") Como se puede concluir, para el desarrollo de aplicaciones web, especialmente de Node.js, se pueden encontrar diferentes IDE con los cuales construir sistemas sorprendentes, todo dependerá de cómo se use cada herramienta y de la preferencia del equipo de desarrollo o del desarrollador, para inclinarse por uno u otro.
     Separador
     #t_1_2
@@ -270,7 +270,7 @@
               a(href="https://nodejs.org/es/download/" target="_blank") https://nodejs.org/es/download/
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img9.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img9.png', style="width: 580px" ,alt='Imagen de descarga del instalador que muestra la página Node.js, de acuerdo al sistema operativo de su máquina.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Descargar el instalador]
@@ -280,7 +280,7 @@
             p.mb-0 Una vez se tenga el archivo respectivo de instalación, dar doble clic para iniciar el #[i wizard] de instalación, y luego, dar clic en siguiente.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img10.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img10.png', style="width: 580px" ,alt='Imagen que muestra el proceso de instalación de Node.js.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Proceso de instalación]
@@ -290,7 +290,7 @@
             p.mb-0 Para poder iniciar el proceso de instalación de Node.js, el #[i wizard] mostrará una pantalla de aceptación de términos y condiciones, el cual hace referencia a las especificaciones de la licencia del producto.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img11.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img11.png', style="width: 580px" ,alt='Imagen que muestra los términos y condiciones para instalar Node.js.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Términos y condiciones]
@@ -300,7 +300,7 @@
             p.mb-0 Por defecto, el #[i wizard] de instalación seleccionará una ruta por defecto, pero esta puede ser establecida de forma personalizada por el usuario.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img12.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img12.png', style="width: 580px" ,alt='Imagen que muestra la ubicación donde estará Node.js y la cual puede personalizarse al lugar deseado.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Ubicación de la instalación]
@@ -310,14 +310,14 @@
             p.mb-0 Es posible que el usuario realice una instalación personalizada y avanzada, por lo cual podrá escoger cuál de las opciones desea instalar; dado el caso que no requiera hacer ajustes, se instalará la configuración por defecto.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img13.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img13.png', style="width: 580px" ,alt='Imagen que muestra la configuración avanzada de Node.js, en la cual el usuario podrá elegir las opciones que desea tener del software.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Configuración avanzada]
         .row.justify-content-center.align-items-center
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img14.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img14.png', style="width: 580px" ,alt='Imagen que muestra el proceso de los módulos nativos en la instalación de Node.js.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Módulos nativos]
@@ -327,7 +327,7 @@
             p.mb-0 Posteriormente a todas las configuraciones de instalación, se procederá a confirmar el proceso de instalación.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img15.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img15.png', style="width: 580px" ,alt='Imagen que muestra el proceso final de la instalación de Node.js, donde se debe confirmar.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Ejecución de la instalación]
@@ -337,7 +337,7 @@
             p.mb-0 Mientras el paquete de Node.js se está instalando, aparecerá una pantalla de progreso que indicará el estado de la instalación.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img22.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img22.png', style="width: 580px" ,alt='Imagen que muestra el proceso de instalación y la pantalla de progreso.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Proceso de instalación]
@@ -347,7 +347,7 @@
             p.mb-0 Cuando se finalice el proceso de instalación, aparecerá una ventana de confirmación, que indica que la instalación fue completada satisfactoriamente.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema1/img23.png', style="width: 580px" ,alt='')
+              img(src='@/assets/curso/tema1/img23.png', style="width: 580px" ,alt='Imagen que muestra el proceso de instalación y la ventana de confirmación.')
             .row.mx-0
               .col-auto.bg-c6.px-3.py-2
                 p.mb-0.text-white #[b Finalización]
@@ -412,7 +412,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b CMD Node.js]
           figure
-            img(src='@/assets/curso/tema1/img16.png', style="width: 340px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img16.png', style="width: 340px" ,alt='Imagen que muestra cuando se abre la consola de CMD Node.js en el sistema operativo.').m-auto
     ModalA(:abrir-modal.sync="modal7")
       .row.align-items-center
         .col-12
@@ -420,7 +420,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Símbolo de sistema Windows]
           figure
-            img(src='@/assets/curso/tema1/img17.png', style="width: 240px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img17.png', style="width: 240px" ,alt='Imagen que muestra cuando se abre en la consola CMD Node.js escribiendo el comando desde Windows.').m-auto
     ModalA(:abrir-modal.sync="modal8")
       .row.align-items-center
         .col-12
@@ -428,7 +428,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Validación]
           figure
-            img(src='@/assets/curso/tema1/img18.png', style="width: 640px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img18.png', style="width: 640px" ,alt='Imagen que muestra el tipeado node en la consola de Node.js.').m-auto
     ModalA(:abrir-modal.sync="modal9")
       .row.align-items-center
         .col-12
@@ -436,7 +436,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Información de instalación]
           figure
-            img(src='@/assets/curso/tema1/img19.png', style="width: 640px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img19.png', style="width: 640px" ,alt='Imagen que muestra información de instalación de Node.js.').m-auto
     ModalA(:abrir-modal.sync="modal10")
       .row.align-items-center
         .col-12
@@ -444,7 +444,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Validación de versión NODE]
           figure
-            img(src='@/assets/curso/tema1/img20.png', style="width: 640px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img20.png', style="width: 640px" ,alt='Imagen que muestra la validación de versión NODE en Node.js.').m-auto
     ModalA(:abrir-modal.sync="modal11")
       .row.align-items-center
         .col-12
@@ -452,7 +452,7 @@
             .col-auto.bg-c5.px-3.p-2
               p.mb-0 #[b Validación de versión NPM]
           figure
-            img(src='@/assets/curso/tema1/img21.png', style="width: 640px" ,alt='').m-auto
+            img(src='@/assets/curso/tema1/img21.png', style="width: 640px" ,alt='Imagen que muestra la validación de versión NPM en Node.js.').m-auto
     p.mb-0(data-aos="fade-right") Con esto, se puede validar que Node y el npm están correctamente instalados y se puede proseguir a realizar la construcción y configuración de proyectos.
 
 </template>

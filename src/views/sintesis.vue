@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema gráfico que resume lo abordado en el componente formativo, indicando lo relacionado con las aplicaciones web de JavaScript, los cuales se compone de: Websockets. Configuración del entorno: instalación Node.js. Codificación en Node.js: consola, NPM, módulos, express. Tecnologías y estilos de desarrollo: Tipos de codificación, cliente y servidor socket. Solución en tiempo real.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

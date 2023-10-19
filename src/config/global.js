@@ -261,25 +261,14 @@ export default {
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable equipo de desarrollo curricular',
+          cargo: 'Asesor pedagógico',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesoría pedagógico',
+          nombre: 'Darío González',
+          cargo: 'Corrector de estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Corrección de estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Metodología para la formación virtual',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
