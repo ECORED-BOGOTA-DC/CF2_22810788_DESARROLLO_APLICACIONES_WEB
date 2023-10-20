@@ -93,11 +93,6 @@ export default {
             titulo: 'Codificación de cliente socket con JavaScript',
             hash: 't_2_6',
           },
-          {
-            numero: '2.7',
-            titulo: 'Tabla de comparación entre implementaciones',
-            hash: 't_2_7',
-          },
         ],
       },
     ],
